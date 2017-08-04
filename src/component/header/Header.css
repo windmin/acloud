@@ -1,0 +1,32 @@
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 7rem;
+    box-shadow: 0 0.1rem 0 0 rgba(0, 0, 0, 0.09);
+}
+
+.header-part {
+    display: flex;
+    align-items: center;
+    margin-left: 2.8rem;
+}
+
+.header-separate {
+    height: 1.6rem;
+    width: 0.2rem;
+    background-color: black;
+    margin-left: 1.65rem;
+    margin-right: 1.65rem;
+}
+
+.header-title {
+    font-size: 1.4rem;
+    margin-right: 3.2rem;
+    user-select: none; 
+    cursor:default;
+}
+
+.header-login {
+    margin-right: 0rem;
+}

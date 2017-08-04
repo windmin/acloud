@@ -1,0 +1,36 @@
+.footer-container {
+  height: 33.9rem;
+  background-color: #2a2a2a;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-container-box {
+  display: flex;
+  margin-top: 3.4rem;
+}
+
+.footer-container-box-center {
+  margin-left: 15rem;
+  margin-right: 15rem;
+}
+
+.footer-title {
+  color: white;
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.footer-content {
+  font-size: 1.2rem;
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 1.4rem;
+}
+
+.footer-right {
+  color: white;
+  font-size: 1.2rem;
+  margin-bottom: 2.4rem;
+}

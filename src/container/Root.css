@@ -1,0 +1,8 @@
+.root-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.root-content {
+    flex: auto;
+}
