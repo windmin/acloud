@@ -1,32 +1,79 @@
-.header-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 7rem;
-    box-shadow: 0 0.1rem 0 0 rgba(0, 0, 0, 0.09);
+div.max-page-width.container {
+    max-width: 1110px;
+    padding: 0;
+    display: block;
 }
 
-.header-part {
-    display: flex;
-    align-items: center;
-    margin-left: 2.8rem;
+/*
+ * 导航栏样式
+ */
+.container>.navbar-default {
+    background-color: #ffffff;
+    border-radius: 0;
+    margin: 0;
+    border-style: none;
+    border-color: transparent;
+    border-width: 0;
+    min-height: 70px;
 }
 
-.header-separate {
-    height: 1.6rem;
-    width: 0.2rem;
-    background-color: black;
-    margin-left: 1.65rem;
-    margin-right: 1.65rem;
+.container>.navbar-default>.container {
+    padding: 0;
+    max-width: 1110px;
 }
 
-.header-title {
-    font-size: 1.4rem;
-    margin-right: 3.2rem;
-    user-select: none; 
-    cursor:default;
+.container>.navbar-default>.container>.navbar-collapse{
+    border-style: none;
+    border-color: transparent;
+    border-width: 0;
 }
 
-.header-login {
-    margin-right: 0rem;
+.navbar>.container>.navbar-collapse>.nav>li>a {
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 14px;
+    padding: 27px 16px 23px 16px;
+}
+
+.navbar>.container>.navbar-collapse>.nav>li>a:link {
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.navbar>.container>.navbar-collapse>.nav>li>a:hover {
+    color: rgba(0, 0, 0, 0.8);
+    background-color: transparent;
+}
+
+.navbar>.container>.navbar-collapse>.nav>li.active>a {
+    color: #1b83e1;
+    background-color: transparent;
+}
+
+.navbar>.container>.navbar-collapse>.nav>li.active>a:link {
+    color: #1b83e1;
+}
+
+.navbar>.container>.navbar-collapse>.nav>li.active>a:hover {
+    color: #1b83e1;
+}
+
+.navbar-default>.container>.navbar-collapse {
+    padding: 0;
+    box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.09);
+}
+
+.navbar-default>.container>.navbar-collapse>.navbar-right {
+    margin: 0;
+}
+
+.navbar>.container>.navbar-collapse>.navbar-nav:nth-child(1) li:nth-child(1) a {
+    padding-left: 28px;
+}
+
+.navbar>.container>.navbar-collapse>.navbar-right li:nth-child(3) a {
+    padding-right: 32px;
+}
+
+.navbar-header {
+    margin-left: 10px;
+    margin-right: 10px;
 }
