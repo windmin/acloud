@@ -24,7 +24,7 @@ class Root extends Component {
           <div className="root-content">
             <Route path="/test1" component={Test1} />
             <Route path="/test2" component={Test2} />
-            <Route path="/home" component={HomeAcloud} />
+            <Route exact path="/" component={HomeAcloud} />
             <Route path="/latest-events" component={LatestEvents} />
             <Route path="/solution" component={Solution} />
           </div>

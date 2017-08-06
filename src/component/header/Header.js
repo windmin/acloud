@@ -40,7 +40,7 @@ class Header extends Component {
                         <LinkContainer to="#">
                             <NavItem eventKey={5}>我的账号</NavItem>
                         </LinkContainer>
-                        <LinkContainer to="/home">
+                        <LinkContainer to="/">
                             <NavItem eventKey={6}><img src={logo} alt="small logo" /></NavItem>
                         </LinkContainer>
                     </Nav>

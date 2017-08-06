@@ -20,10 +20,6 @@ class HomeAcloud extends Component {
     }
 
     handleMouseEnter() {
-        console.log('left',(document.body.offsetWidth-document.getElementById('maxPageWidth').offsetWidth)/2+this.articleOneOne.offsetWidth);
-        console.log('widt',this.articleOneOne.offsetWidth);
-        console.log('document',document.body.offsetWidth);
-        console.log('maxPageWidth',document.getElementById('maxPageWidth').offsetWidth);
         this.setState({
             display: "block",
             left: (document.body.offsetWidth - document.getElementById('maxPageWidth').offsetWidth)/2+this.articleOneOne.offsetWidth,
